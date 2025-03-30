@@ -16,3 +16,38 @@
     background-size: cover;
     min-height: 60vh; 
   }
+
+  /* SECTION "green-banner"*/
+.green-banner {
+    background-color: #72b626; /* przykładowy zielony */
+    min-height: 40vh;
+    padding: 60px 15px;
+  }
+  
+  /* Karty aktualności */
+  .card {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Galeria*/
+  .gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Stopka */
+  footer {
+    /* Już ma tło i kolor w HTML inline classes, ale możesz dodać coś od siebie */
+  }
+  
+  /* Responsywność dodatkowa */
+  @media (max-width: 768px) {
+    .hero {
+      min-height: 40vh;
+    }
+    .green-banner {
+      min-height: 30vh;
+    }
+  }
