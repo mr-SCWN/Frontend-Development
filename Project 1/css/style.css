@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  /* HERO SECTION */
+.hero {
+    
+    background: url('../img/hero.png') no-repeat center center;
+    background-size: cover;
+    min-height: 60vh; 
+  }
