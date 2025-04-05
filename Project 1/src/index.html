@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DAHER</title>
+        <link rel="stylesheet" href = "style.css">
+    </head>
+    <body>
+        <header class="bg-white sticky top-0 z-50">     <!--HEADER FOR WHITE BACKGROUND-->
+            <div class="largeMenu relative lg:ml-[20%] lg:mr-[20%] pt-2 pb-5 pr-6 pl-6">
+                <div class="absolute flex flex-row justify-center top-0 left-0 right-0">
+                    <div class="w-8 h-5 bg-daher-blue"></div>
+                    <div class="w-8 h-5 bg-daher-red"></div>
+                </div>
+                <div class="flex flex-row justify-end m-2">
+                    <nav class="flex flex-row items-center">
+                        <a href="#"><img src="../images/facebook.svg"  class="w-4 l-4 mr-1 " alt="facebook"/></a>
+                        <a href="#"><img src="../images/youtube.svg" class="w-4 l-4 ml-1 mr-5" alt="youtube"/></a>
+                    </nav>
+                    <nav class="flex flex-row justify-end items-center text-daher-blue text-[14px] divide-x leading-4">
+                        <a href="#" class="pl-2 pr-2">PL</a>
+                        <a href="#" class="pl-2 pr-2">FR</a>
+                        <a href="#" class="pl-2">EN</a>
+                    </nav>
+                </div>
+                <div class="flex flex-row w-auto justify-between flex-wrap">
+                    <img src="../images/logo-blue.svg" class="pb-1" alt="logo.svg"/>
+                    <nav class="self-end text-daher-blue text-[14px] divide-daher-red divide-x leading-4">
+                        <a href="#" class="pr-1">FIRMA</a>
+                        <a href="#" class="pl-1 pr-1">AKTUALNOŚCI</a>
+                        <a href="#" class="pl-1 pr-1">ZAKRES USŁUG</a>
+                        <a href="#" class="pl-1 pr-1">REALIZACJE</a>
+                        <a href="#" class="pl-1 pr-1">FLOTA</a>
+                        <a href="#" class="pl-1">KONTAKT</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="smalllMenu relative lg:ml-[20%] lg:mr-[20%] p-6" id="smalllMenu">
+                <div class="absolute flex flex-row justify-center top-0 left-0 right-0">
+                    <div class="w-8 h-5 bg-daher-blue"></div>
+                    <div class="w-8 h-5 bg-daher-red"></div>
+                </div>
+                <div class="flex flex-row justify-between">
+                    <img src="../images/logo-blue.svg" class="flex flex-shrink-0 pb-1" alt="logo.svg"/>
+                    <div class="flex flex-row flex-shrink-0">
+                        <nav class="flex flex-row items-center">
+                            <a href="#"><img src="../images/facebook.svg"  class="w-4 l-4 mr-1 " alt="facebook"/></a>
+                            <a href="#"><img src="../images/youtube.svg" class="w-4 l-4 ml-1 mr-5" alt="youtube"/></a>
+                        </nav>
+                        <nav class="flex flex-row justify-end items-center text-daher-blue text-[14px] divide-x leading-4">
+                            <a href="#" class="pl-2 pr-2">PL</a>
+                            <a href="#" class="pl-2 pr-2">FR</a>
+                            <a href="#" class="pl-2">EN</a>
+                        </nav>
+                        <button type="button" class="ml-5 mr-1" onclick="toggleMenu()">
+                            <img src="../images/burger.svg" width="30px" alt="burger.svg"/>
+                        </button>
+                    </div>
+                </div>
+                <div class="hidden md:hidden pt-4" id="toggleMenu">
+                    <nav class="flex flex-col text-daher-blue text-xl">
+                        <a href="#" class="pb-1">FIRMA</a>
+                        <a href="#" class="pt-1 pb-1">AKTUALNOŚCI</a>
+                        <a href="#" class="pt-1 pb-1">ZAKRES USŁUG</a>
+                        <a href="#" class="pt-1 pb-1">REALIZACJE</a>
+                        <a href="#" class="pt-1 pb-1">FLOTA</a>
+                        <a href="#" class="pt-1">KONTAKT</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </body>
+</html>
