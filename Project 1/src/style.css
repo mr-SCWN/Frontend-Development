@@ -620,39 +620,39 @@ body {
 }
 
 .bg-construction {
-  background-image: url(../static/bg8.jpeg);
+  background-image: url(../images/bg8.jpeg);
 }
 
 .bg-crane {
-  background-image: url('../static/bg2.png');
+  background-image: url('../images/bg2.png');
 }
 
 .bg-crane2 {
-  background-image: url(../static/bg5.jpeg);
+  background-image: url(../images/bg5.jpeg);
 }
 
 .bg-sign {
-  background-image: url(../static/bg9.jpeg);
+  background-image: url(../images/bg9.jpeg);
 }
 
 .bg-trailer {
-  background-image: url('../static/bg1.jpeg');
+  background-image: url('../images/bg1.jpeg');
 }
 
 .bg-trailer1 {
-  background-image: url(../static/bg3.jpeg);
+  background-image: url(../images/bg3.jpeg);
 }
 
 .bg-train {
-  background-image: url(../static/bg7.jpeg);
+  background-image: url(../images/bg7.jpeg);
 }
 
 .bg-traintank {
-  background-image: url(../static/bg4.jpeg);
+  background-image: url(../images/bg4.jpeg);
 }
 
 .bg-transformerstation {
-  background-image: url(../static/bg6.png);
+  background-image: url(../images/bg6.png);
 }
 
 .bg-cover {
