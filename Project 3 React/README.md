@@ -30,5 +30,6 @@ npm start
 
 *LocalHost:*
 ```
-localhost:4000
+localhost:3000
+# (but client starts running automatically)
 ```
