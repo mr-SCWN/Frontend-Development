@@ -1,4 +1,4 @@
-# Svetle
+# Svelte
 
 **SERVER:**
 
