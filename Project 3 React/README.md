@@ -16,6 +16,8 @@ node server.js
 
 **CLIENT:**
 
+In folder "nodetodo/client":
+
 *Download:*
 ```
 npm install 
