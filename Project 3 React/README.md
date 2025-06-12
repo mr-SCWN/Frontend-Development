@@ -2,7 +2,7 @@
 
 **SERVER:**
 
-In folder "nodetodo/server":
+In the folder "nodetodo/server":
 
 *Download:*
 ```
@@ -24,6 +24,7 @@ npm install
 npm install bootstrap
 
 ```
+In the folder "nodetodo/client":
 
 *Run client:*
 ```
